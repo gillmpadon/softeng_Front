@@ -4,7 +4,13 @@ body{
     background-repeat: no-repeat;
 
 }
-
+/* TITLE */
+.title{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 2px black;
+    text-align: center;
+}
 .container{
     position: relative;
     top: 60px;
@@ -27,22 +33,49 @@ body{
     top: 20px;
     width: 250px;
     height: 350px;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     margin: auto;
     border-radius: 20px;
 }
-
+.box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
 .buttons{
     display: flex;
     padding: 30px;
 }
 
 .buttons_con{
+    color: white;
+    text-shadow: 1px 2px black;
     height: 70px;
     width: 30%;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     margin:auto;
     border-radius: 50px;
     position: relative;
     top: -25px;
+    
 }
+
+.buttons_con input{
+    position: relative;
+    top: 25px;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.buttons_con label{
+    position: relative;
+    left: 20px;
+}
+
+
+
